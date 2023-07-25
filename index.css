@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Oswald:wght@200;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  background-color: #FFCD9E;
+  font-family: I Inter, sans-serif;
+}
+.container
+{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .left{
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px; 
+}
+
+h1{
+  color: #282828;
+  font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.our
+{
+  padding-top: 20px;
+  color: #484848;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+.show
+{
+  padding-top: 20px;
+  color: #282828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%;
+    padding-bottom: 20px;
+}
+
+form input{
+  text-align: center;
+  color: #888;
+      font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 230%;
+    border-radius: 8px;
+    border: 4px solid #000;
+    background: #FFF;
+    margin-right: 10px;
+
+}
+button{
+  color: #FFF;
+  width: 216px;
+    height: 55px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 230%;
+    border-radius: 8px;
+    background: #282828;
+}
+.free
+{
+  padding-top: 10px;
+  color: #FFF;
+  padding-left: 20px;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+
+.container2
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+  background-color: #282828;
+  flex-direction: row;
+  color: #FFFFFF;
+
+}
+
+.container2 .lefts ul
+{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 180%;
+  list-style: none;
+}
+
+.container2 .rights
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+    text-align: right;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 180%;
+}
+
+.hello
+{
+  padding-top: 25px;
+}
